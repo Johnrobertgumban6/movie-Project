@@ -1,0 +1,76 @@
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.tabs button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.cast-grid,
+.crew-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.cast-card,
+.crew-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 150px;
+}
+
+.cast-card img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.photo-card img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.photo-card img:hover {
+  transform: scale(1.05);
+}
+
+.videos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-card {
+  text-align: center;
+}
+
+.video-card img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+}
