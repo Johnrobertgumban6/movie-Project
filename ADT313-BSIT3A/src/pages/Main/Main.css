@@ -1,26 +1,25 @@
 .Main {
   display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  max-height: 100vh;
+  flex-direction: column; /* Stack the navigation at the top */
+  height: 100vh;
   font-family: 'Arial', sans-serif;
 }
 
 .Main .container {
   display: flex;
-  flex-direction: column;  /* Change to column for top navigation */
+  flex-direction: column; /* Stack items vertically: Navigation bar on top and outlet below */
+  width: 100%;
 }
 
 .Main .container .navigation {
   background: linear-gradient(135deg, #2a9d8f, #264653);
   color: white;
-  width: 100%;
-  height: 60px;  /* Adjust height for top nav */
-  padding: 10px 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Full width of the screen */
+  padding: 15px 0; /* Space above and below */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow below the navigation bar */
   display: flex;
-  justify-content: space-between;  /* Distribute buttons on left and right */
-  align-items: center;
+  justify-content: space-evenly; /* Space items evenly within the bar */
+  align-items: center; /* Center items vertically */
 }
 
 .Main .container .navigation ul {
@@ -38,6 +37,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 .Main .container .navigation ul li.active,
@@ -53,26 +53,17 @@
   font-weight: bold;
 }
 
-/* Left side button (e.g., Movie button) */
-.Main .container .navigation ul li.movie {
-  margin-left: 0;  /* Keep it on the left side */
-}
-
-/* Right side button (e.g., Logout button) */
-.Main .container .navigation ul li.logout {
-  margin-left: auto;  /* Push logout button to the right */
-  background-color: #e76f51;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-  transition: background 0.3s, transform 0.2s;
-}
-
-.Main .container .navigation ul li.logout:hover {
-  background-color: #f4a261;
-  transform: scale(1.05);
+.Main .container .navigation ul li span.icon {
+  display: inline-block;
+  background: #e76f51;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
 }
 
 .Main .container .outlet {
@@ -94,15 +85,17 @@
   color: #333;
 }
 
-.Main .container .navigation ul li span.icon {
-  display: inline-block;
-  background: #e76f51;
-  color: white;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
+.Main .container .navigation ul li.logout {
+  background-color: #e76f51;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.Main .container .navigation ul li.logout:hover {
+  background-color: #f4a261;
+  transform: scale(1.05);
 }
