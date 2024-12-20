@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "admin-dashboard-gumbanjohnrobert-bsit3a",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +11,16 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "admin-dashboard-gumbanjohnrobert-bsit3a": "file:",
+=======
+  "name": "admin-dashboard-johnrobertgumban-bsit3a",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "admin-dashboard-johnrobertgumban-bsit3a": "file:",
+>>>>>>> 8af062c2114cfd4b949f1e5e99188f89825ff271
     "axios": "^1.7.7",
     "http-proxy-middleware": "^3.0.2",
     "react": "^18.3.1",

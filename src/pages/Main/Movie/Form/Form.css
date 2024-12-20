@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .form-box {
   max-height: 86vh;
   overflow-x: hidden;
@@ -241,3 +242,21 @@ li:hover {
   color: #666;
   cursor: not-allowed;
 }
+=======
+.searched-movie {
+  max-height: 200px;
+  overflow-y: auto;
+}
+.search-container p:hover {
+  background-color: lightblue;
+}
+
+.poster-image {
+  width: 150px;
+  height: auto;
+}
+
+.container {
+  overflow: auto;
+}
+>>>>>>> 8af062c2114cfd4b949f1e5e99188f89825ff271

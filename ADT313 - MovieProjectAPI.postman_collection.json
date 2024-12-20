@@ -78,7 +78,11 @@
 							"bearer": [
 								{
 									"key": "token",
+<<<<<<< HEAD
 									"value": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMmM5MWJlYTQ0MTdhOTUyOTI3MzUyMmQ1MzYzZTBhYyIsIm5iZiI6MTczMzM3MTIzMS44MjcwMDAxLCJzdWIiOiI2NzUxMjU1ZjkwYWEwMjZiOWRhZWRhNTEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.nZvHGyQcyuFr8aZEE21RWyNz-PToYp12mMcseZZXm2M\"",
+=======
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImVtYWlsIjoidGVzdEBtYWlsLmNvbSIsImZpcnN0TmFtZSI6InN0cmluZyIsIm1pZGRsZU5hbWUiOiJzdHJpbmciLCJsYXN0TmFtZSI6InN0cmluZyIsImNvbnRhY3RObyI6InN0cmluZyIsInJvbGUiOiJ1c2VyIn0.A5_7mar20IU3bNBxnBAO2iV9hxvLjJQFrhwNCH1gBZo\"",
+>>>>>>> 8af062c2114cfd4b949f1e5e99188f89825ff271
 									"type": "string"
 								}
 							]
@@ -115,7 +119,11 @@
 							"bearer": [
 								{
 									"key": "token",
+<<<<<<< HEAD
 									"value": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMmM5MWJlYTQ0MTdhOTUyOTI3MzUyMmQ1MzYzZTBhYyIsIm5iZiI6MTczMzM3MTIzMS44MjcwMDAxLCJzdWIiOiI2NzUxMjU1ZjkwYWEwMjZiOWRhZWRhNTEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.nZvHGyQcyuFr8aZEE21RWyNz-PToYp12mMcseZZXm2M\"",
+=======
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImVtYWlsIjoidGVzdEBtYWlsLmNvbSIsImZpcnN0TmFtZSI6InN0cmluZyIsIm1pZGRsZU5hbWUiOiJzdHJpbmciLCJsYXN0TmFtZSI6InN0cmluZyIsImNvbnRhY3RObyI6InN0cmluZyIsInJvbGUiOiJ1c2VyIn0.A5_7mar20IU3bNBxnBAO2iV9hxvLjJQFrhwNCH1gBZo\"",
+>>>>>>> 8af062c2114cfd4b949f1e5e99188f89825ff271
 									"type": "string"
 								}
 							]
@@ -153,7 +161,11 @@
 							"bearer": [
 								{
 									"key": "token",
+<<<<<<< HEAD
 									"value": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMmM5MWJlYTQ0MTdhOTUyOTI3MzUyMmQ1MzYzZTBhYyIsIm5iZiI6MTczMzM3MTIzMS44MjcwMDAxLCJzdWIiOiI2NzUxMjU1ZjkwYWEwMjZiOWRhZWRhNTEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.nZvHGyQcyuFr8aZEE21RWyNz-PToYp12mMcseZZXm2M\"",
+=======
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImVtYWlsIjoidGVzdEBtYWlsLmNvbSIsImZpcnN0TmFtZSI6InN0cmluZyIsIm1pZGRsZU5hbWUiOiJzdHJpbmciLCJsYXN0TmFtZSI6InN0cmluZyIsImNvbnRhY3RObyI6InN0cmluZyIsInJvbGUiOiJ1c2VyIn0.A5_7mar20IU3bNBxnBAO2iV9hxvLjJQFrhwNCH1gBZo\"",
+>>>>>>> 8af062c2114cfd4b949f1e5e99188f89825ff271
 									"type": "string"
 								}
 							]
@@ -233,7 +245,11 @@
 							"bearer": [
 								{
 									"key": "token",
+<<<<<<< HEAD
 									"value": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMmM5MWJlYTQ0MTdhOTUyOTI3MzUyMmQ1MzYzZTBhYyIsIm5iZiI6MTczMzM3MTIzMS44MjcwMDAxLCJzdWIiOiI2NzUxMjU1ZjkwYWEwMjZiOWRhZWRhNTEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.nZvHGyQcyuFr8aZEE21RWyNz-PToYp12mMcseZZXm2M\"",
+=======
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImVtYWlsIjoidGVzdEBtYWlsLmNvbSIsImZpcnN0TmFtZSI6InN0cmluZyIsIm1pZGRsZU5hbWUiOiJzdHJpbmciLCJsYXN0TmFtZSI6InN0cmluZyIsImNvbnRhY3RObyI6InN0cmluZyIsInJvbGUiOiJ1c2VyIn0.A5_7mar20IU3bNBxnBAO2iV9hxvLjJQFrhwNCH1gBZo\"",
+>>>>>>> 8af062c2114cfd4b949f1e5e99188f89825ff271
 									"type": "string"
 								}
 							]
@@ -361,7 +377,11 @@
 							"bearer": [
 								{
 									"key": "token",
+<<<<<<< HEAD
 									"value": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMmM5MWJlYTQ0MTdhOTUyOTI3MzUyMmQ1MzYzZTBhYyIsIm5iZiI6MTczMzM3MTIzMS44MjcwMDAxLCJzdWIiOiI2NzUxMjU1ZjkwYWEwMjZiOWRhZWRhNTEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.nZvHGyQcyuFr8aZEE21RWyNz-PToYp12mMcseZZXm2M",
+=======
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsImVtYWlsIjoidGVzdEBtYWlsLmNvbSIsImZpcnN0TmFtZSI6InN0cmluZyIsIm1pZGRsZU5hbWUiOiJzdHJpbmciLCJsYXN0TmFtZSI6InN0cmluZyIsImNvbnRhY3RObyI6InN0cmluZyIsInJvbGUiOiJ1c2VyIn0.D-Q2rYdQe9UWDu1HWAg_i1Hg48J-tyglpXZgiAQYTl0",
+>>>>>>> 8af062c2114cfd4b949f1e5e99188f89825ff271
 									"type": "string"
 								}
 							]
@@ -436,7 +456,11 @@
 							"bearer": [
 								{
 									"key": "token",
+<<<<<<< HEAD
 									"value": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMmM5MWJlYTQ0MTdhOTUyOTI3MzUyMmQ1MzYzZTBhYyIsIm5iZiI6MTczMzM3MTIzMS44MjcwMDAxLCJzdWIiOiI2NzUxMjU1ZjkwYWEwMjZiOWRhZWRhNTEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.nZvHGyQcyuFr8aZEE21RWyNz-PToYp12mMcseZZXm2M",
+=======
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsImVtYWlsIjoidGVzdEBtYWlsLmNvbSIsImZpcnN0TmFtZSI6InN0cmluZyIsIm1pZGRsZU5hbWUiOiJzdHJpbmciLCJsYXN0TmFtZSI6InN0cmluZyIsImNvbnRhY3RObyI6InN0cmluZyIsInJvbGUiOiJ1c2VyIn0.D-Q2rYdQe9UWDu1HWAg_i1Hg48J-tyglpXZgiAQYTl0",
+>>>>>>> 8af062c2114cfd4b949f1e5e99188f89825ff271
 									"type": "string"
 								}
 							]
