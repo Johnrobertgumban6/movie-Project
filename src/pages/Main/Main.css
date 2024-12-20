@@ -1,0 +1,145 @@
+.Main {
+  display: flex;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.Main .container {
+  display: flex;
+  flex-direction: row; 
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.Main .container .navigation {
+  width: 250px; 
+  height: 100vh; 
+  background-color: #15171b;
+  display: flex;
+  flex-direction: column;
+}
+
+.Main .container .navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; 
+  height: auto;
+}
+
+.Main .container .navigation ul li {
+  width: 100%; 
+  height: 60px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #61dafb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Main .container .navigation ul li a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.Main .container .navigation ul li.active a,
+.Main .container .navigation ul li:hover a {
+  text-decoration: none;
+  color: white;
+}
+
+.Main .container .navigation ul li.active,
+.Main .container .navigation ul li:hover {
+  background: #1548a7;
+}
+
+.Main .container .navigation .admin-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #20232a;
+  border-radius: 10px;
+  margin: 10px 0;
+  color: white;
+  width: 100%;
+  height: 80px;
+  cursor: pointer;
+}
+
+.Main .container .navigation .admin-info:hover {
+  background-color: #353a43;
+  cursor: pointer;
+}
+
+.Main .container .navigation .admin-info .fa-user-circle {
+  margin-right: 10px;
+}
+
+.Main .container .navigation .admin-info .user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Main .container .navigation .admin-info .user-info .role {
+  font-size: 0.8rem;
+  color: #61dafb;
+  text-transform: uppercase;
+}
+
+.Main .container .navigation .admin-info .user-info .name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.Main .container .navigation .logout {
+  width: 100%;
+  height: 60px;
+  background-color: #f70424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0); 
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 600px; 
+}
+
+.Main .container .navigation .logout:hover {
+  background-color: #b0031b; 
+}
+
+.Main .container .outlet {
+  flex-grow: 1; 
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+
+@media (max-width: 768px) {
+  .Main .container .navigation {
+    width: 200px; 
+  }
+
+  .Main .container .navigation .admin-info {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .Main .container .navigation .admin-info .user-info .name {
+    font-size: 0.9rem;
+  }
+
+  .Main .container .navigation .admin-info .fa-user-circle {
+    font-size: 40px;
+  }
+}

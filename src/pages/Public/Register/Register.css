@@ -1,0 +1,131 @@
+.registermain-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../../../../public/registerbackground.jpg') no-repeat center center/cover;
+    background-color: rgba(121, 121, 121, 0.75);
+    background-blend-mode: darken;
+  }
+  
+  .registerform-container {
+    padding: 2rem 2rem;
+    border: 2px solid #0ff;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.8), 0 0 25px rgba(0, 255, 255, 0.6);
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    color: #fff;
+}
+
+
+.registerform-container h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.8), 0 0 10px rgba(0, 255, 255, 0.8), 0 0 15px rgba(0, 255, 255, 0.8);
+}
+
+  
+  .registerform-container>h3 {
+    margin-top: 0;
+    color: #ffffff; 
+    font-size: 1.5rem;
+  }
+  
+  .registerform-container>div {
+    margin-bottom: -0.12rem;
+  }
+  
+  .registerform-group {
+    display: flex;
+    margin-bottom: 8px;
+  }
+  
+  .registerform-group label {
+    width: 130px;
+    margin-right: 10px;
+    text-align: left;
+    color: #ffffff; 
+    font-size: 15px; 
+  }
+  
+  .errors {
+    display: flex;
+    margin-left: 8.8rem;
+    color: red;
+    font-size: 10px;
+  }
+  
+  .registersubmit-container {
+    margin-top: 12px;
+    text-align: center;
+  }
+  
+  .register-container {
+    text-align: center;
+    margin-top: 1rem; 
+  }
+  
+  .registershow-password {
+    display: flex;
+    margin-left: -0.22rem;
+    cursor: pointer;
+  }
+  
+  .register-container>button {
+    width: 100px;
+    font-size: 14px;
+    background-color: #00ff80; 
+    color: rgb(0, 0, 0); 
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .register-container>button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .register-container>button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed; 
+  }
+  
+  .registerform-group input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+    height: 26px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    box-sizing: border-box; 
+  }
+  
+  .registerform-group input[type="password" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+    height: 26px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    box-sizing: border-box; 
+  }
+  
+  .registerform-group> select {
+    font-size: 14px;
+    width: 178px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 28px;
+    padding: 0rem 0rem;
+  }
+  

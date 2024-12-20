@@ -1,0 +1,125 @@
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; 
+    width: 250px; 
+    background-color: #6e6d6d;
+    color: rgb(15, 15, 15);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 2px 0 4px rgba(248, 245, 245, 0.1);
+    transition: width 0.3s ease; 
+  }
+  
+  
+  header.collapsed {
+    width: 60px; 
+  }
+  
+  
+  .header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  
+  .toggle-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: rgb(26, 214, 183);
+    cursor: pointer;
+  }
+  
+  
+  .top-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-nav li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    height: 40px;
+    justify-content: center;
+    opacity: 1; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  
+  header.collapsed .top-nav li {
+    opacity: 0; 
+    pointer-events: none; 
+  }
+  
+  
+  header.collapsed .nav-icon {
+    font-size: 20px;
+    margin-right: 0;
+  }
+  
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: auto; 
+  }
+  
+  
+  header.collapsed .user-info {
+    display: none; 
+  }
+  
+  
+  .main-content {
+    margin-left: 250px; 
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+  }
+  
+  
+  header.collapsed + .main-content {
+    margin-left: 60px; 
+  }
+  
+  
+  .out {
+    color: white; 
+    background-color: red; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-top: auto; 
+    margin-bottom: 20px; 
+  }
+  
+  .out:hover {
+    background-color: darkred;
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    font-size: 14px;
+  }
+  

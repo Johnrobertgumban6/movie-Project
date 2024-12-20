@@ -1,0 +1,109 @@
+.lists-container {
+  width: 100%;
+  background-color: rgb(92, 92, 92);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+}
+
+.edit-button {
+  width: 90px;
+  height: 40px;
+  margin-right: 10px;
+  font-size: 14px;
+  background-color: green;
+  /* Primary color for edit button */
+  color: white;
+  /* White text on button */
+  border: none;
+  border-radius: 5px;
+  /* Rounded corners */
+  padding: 10px 15px;
+  /* Padding for button */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.3s;
+}
+
+.edit-button:hover {
+  background-color: darkgreen;
+  /* Darker shade on hover */
+}
+
+.delete-movie-button {
+  width: 90px;
+  height: 40px;
+  font-size: 14px;
+  background-color: red;
+  /* Primary color for delete button */
+  color: white;
+  /* White text on button */
+  border: none;
+  border-radius: 5px;
+  /* Rounded corners */
+  padding: 10px 15px;
+  /* Padding for button */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.3s;
+}
+
+.delete-movie-button:hover {
+  background-color: darkred;
+  /* Darker shade on hover */
+}
+
+.table-container {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+
+}
+
+.movie-lists {
+  width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+  border-collapse: separate;
+  box-shadow: 0 4px 8px rgb(255, 255, 255);
+  border-spacing: 0;
+}
+
+.movie-lists th {
+  font-weight: bold;
+  padding: 25px;
+  text-align: center;
+  background-color: #070707;
+  /* Primary color for header */
+  color: white;
+}
+
+.movie-lists td {
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(0deg, white, rgb(255, 241, 241));
+  border-bottom: 1px solid #313131;
+  color: black;
+}
+
+.top-context>button {
+  height: 50px;
+  width: 500px;
+  font-size: 14px;
+  background-color: #06fd96;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 30px;
+  position: relative;
+  right: 5px;
+}
